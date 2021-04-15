@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+header, footer, #about, #work {
+    height: 100vh;
+}
+
+h1 {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 7.5rem;
+    font-weight: 400;
+    width: 25rem;
+}
+#main {
+    width: 300px;
+}
+img {
+    width: 100px;
+}
+
+.one {
+    width: 75px;
+}
+.two {
+    width: 200px;
+}
+
+.work-gallery {
+    display: flex;
+}
+ .nav-container {
+     background-color: #000000;
+ }
+
+ .nav-container > * {
+     color: white;
+ }
+
+ 
